@@ -1,0 +1,110 @@
+[
+  {
+    "region": "IN",
+    "office_id": "in_office_1",
+    "name": "Mumbai Health & Welfare Centre",
+    "type": "healthcare",
+    "lat": 19.076,
+    "lon": 72.8777,
+    "city": "Mumbai"
+  },
+  {
+    "region": "IN",
+    "office_id": "in_office_2",
+    "name": "Andheri Benefit Centre",
+    "type": "benefit_center",
+    "lat": 19.1197,
+    "lon": 72.8468,
+    "city": "Mumbai"
+  },
+  {
+    "region": "IN",
+    "office_id": "in_office_3",
+    "name": "Delhi Govt Service Office",
+    "type": "government_office",
+    "lat": 28.6139,
+    "lon": 77.209,
+    "city": "Delhi"
+  },
+  {
+    "region": "IN",
+    "office_id": "in_office_4",
+    "name": "Bengaluru Civic Hospital",
+    "type": "healthcare",
+    "lat": 12.9716,
+    "lon": 77.5946,
+    "city": "Bengaluru"
+  },
+  {
+    "region": "US",
+    "office_id": "us_office_1",
+    "name": "Manhattan Community Health Center",
+    "type": "healthcare",
+    "lat": 40.7831,
+    "lon": -73.9712,
+    "city": "New York"
+  },
+  {
+    "region": "US",
+    "office_id": "us_office_2",
+    "name": "Brooklyn Benefits Office",
+    "type": "benefit_center",
+    "lat": 40.6782,
+    "lon": -73.9442,
+    "city": "New York"
+  },
+  {
+    "region": "US",
+    "office_id": "us_office_3",
+    "name": "LA County Social Services",
+    "type": "government_office",
+    "lat": 34.0522,
+    "lon": -118.2437,
+    "city": "Los Angeles"
+  },
+  {
+    "region": "US",
+    "office_id": "us_office_4",
+    "name": "Chicago Public Health Clinic",
+    "type": "healthcare",
+    "lat": 41.8781,
+    "lon": -87.6298,
+    "city": "Chicago"
+  },
+  {
+    "region": "BR",
+    "office_id": "br_office_1",
+    "name": "UBS Centro São Paulo",
+    "type": "healthcare",
+    "lat": -23.5505,
+    "lon": -46.6333,
+    "city": "São Paulo"
+  },
+  {
+    "region": "BR",
+    "office_id": "br_office_2",
+    "name": "CRAS Zona Sul",
+    "type": "benefit_center",
+    "lat": -23.6105,
+    "lon": -46.6433,
+    "city": "São Paulo"
+  },
+  {
+    "region": "BR",
+    "office_id": "br_office_3",
+    "name": "Rio Posto de Atendimento",
+    "type": "government_office",
+    "lat": -22.9068,
+    "lon": -43.1729,
+    "city": "Rio de Janeiro"
+  },
+  {
+    "region": "BR",
+    "office_id": "br_office_4",
+    "name": "Brasília INSS Office",
+    "type": "government_office",
+    "lat": -15.7939,
+    "lon": -47.8828,
+    "city": "Brasília"
+  }
+]

@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: civicflow-backend
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: free
+    envVars:
+      - key: ENV
+        value: production
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        fromDatabase:
+          name: civicflow-db
+          property: connectionString
+      - key: ALLOWED_ORIGINS
+        value: '["https://civicflow.vercel.app"]'
+
+databases:
+  - name: civicflow-db
+    plan: free
+    databaseName: civicflow
+    user: civicflow
