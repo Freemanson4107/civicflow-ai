@@ -38,7 +38,7 @@ app.add_middleware(
 )
 
 if settings.is_production:
-    app.add_middleware(TrustedHostMiddleware, allowed_hosts=["civicflow.ai", "*.civicflow.ai"])
+  app.add_middleware(TrustedHostMiddleware, allowed_hosts=["civicflow.ai", "*.civicflow.ai", "civicflow-backend-uvro.onrender.com", "*.onrender.com"])
 
 
 @app.middleware("http")
